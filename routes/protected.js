@@ -6,8 +6,64 @@ var protectedRouter = express_1.Router();
 exports.protectedRouter = protectedRouter;
 protectedRouter.get('/', function (req, res, next) {
     client.messages.create({
-        body: "Hey There",
+        body: '[This is a test from Safety Pin] ALERT! Crystal is in need of help',
         to: "+13142784979",
+        from: "+13143000312"
+    }, function (err, data) {
+        if (err) {
+            console.log("Could not send message");
+        }
+        else {
+            console.log("Has been contacted");
+        }
+        ;
+    });
+    client.messages.create({
+        // Nik
+        body: 'This is a test from Safety Pin] ALERT! Crystal is in need of help',
+        to: "+17039018334",
+        from: "+13143000312"
+    }, function (err, data) {
+        if (err) {
+            console.log("Could not send message");
+        }
+        else {
+            console.log("Has been contacted");
+        }
+        ;
+    });
+    client.messages.create({
+        // Blake
+        body: 'This is a test from Safety Pin] ALERT! Crystal is in need of help',
+        to: "+16784711521",
+        from: "+13143000312"
+    }, function (err, data) {
+        if (err) {
+            console.log("Could not send message");
+        }
+        else {
+            console.log("Has been contacted");
+        }
+        ;
+    });
+    client.messages.create({
+        // Haney
+        body: 'This is a test from Safety Pin] ALERT! Crystal is in need of help',
+        to: "+13136106987",
+        from: "+13143000312"
+    }, function (err, data) {
+        if (err) {
+            console.log("Could not send message");
+        }
+        else {
+            console.log("Has been contacted");
+        }
+        ;
+    });
+    client.messages.create({
+        // Edward
+        body: 'This is a test from Safety Pin] ALERT! Crystal is in need of help',
+        to: "+13124021551",
         from: "+13143000312"
     }, function (err, data) {
         if (err) {
