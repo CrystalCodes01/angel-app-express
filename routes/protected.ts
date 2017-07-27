@@ -19,7 +19,7 @@ protectedRouter.get('/', function(req, res:Response, next){
 
     client.messages.create({
       // Nik
-        body: 'This is a test from Safety Pin] ALERT! Crystal is in need of help',
+        body: '[This is a test from Safety Pin] ALERT! Crystal is in need of help',
         to: "+17039018334",
         from: "+13143000312"
     }, function(err, data){
@@ -32,7 +32,7 @@ protectedRouter.get('/', function(req, res:Response, next){
 
     client.messages.create({
       // Blake
-        body: 'This is a test from Safety Pin] ALERT! Crystal is in need of help',
+        body: '[This is a test from Safety Pin] ALERT! Crystal is in need of help',
         to: "+16784711521",
         from: "+13143000312"
     }, function(err, data){
@@ -45,7 +45,7 @@ protectedRouter.get('/', function(req, res:Response, next){
 
     client.messages.create({
       // Haney
-        body: 'This is a test from Safety Pin] ALERT! Crystal is in need of help',
+        body: '[This is a test from Safety Pin] ALERT! Crystal is in need of help',
         to: "+13136106987",
         from: "+13143000312"
     }, function(err, data){
@@ -58,7 +58,7 @@ protectedRouter.get('/', function(req, res:Response, next){
 
     client.messages.create({
       // Edward
-        body: 'This is a test from Safety Pin] ALERT! Crystal is in need of help',
+        body: '[This is a test from Safety Pin] ALERT! Crystal is in need of help',
         to: "+13124021551",
         from: "+13143000312"
     }, function(err, data){
